@@ -3,8 +3,8 @@ resume
 
 Minimal resume I made with LaTeX
 
-* PDF Example: http://siobud.com/resume
-* HTML Example: http://siobud.com/resume/resume.pdf
+* HTML Example: http://siobud.com/resume
+* PDF Example: http://siobud.com/resume/resume.pdf
 
 #Libraries and tools used
 * TeX Live: http://www.tug.org/texlive/
