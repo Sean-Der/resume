@@ -3,48 +3,46 @@
 \usepackage[T1]{fontenc}
 \usepackage{textcomp,multicol}
 \usepackage[hidelinks]{hyperref}
-\usepackage[bottom=1em,top=4em,left=3em]{geometry}
+\usepackage[bottom=1em,top=3em,left=3em]{geometry}
 
-\begin{document} 
-\name{Sean P. DuBois} 
-\address{\href{mailto:sean@siobud.com}{\hspace{1em}sean@sioBuD.com} \\ \href{http://siobud.com}{\hspace{1em}sioBuD.com} \\ \href{http://github.com/sean-der}{\hspace{1em}GitHub.com/Sean-Der}}
+\begin{document}
+\name{Sean P. DuBois}
+\address{\href{mailto:sean@siobud.com}{\hspace{1em}sean@sioBuD.com} \\ \href{http://github.com/sean-der}{\hspace{1em}GitHub.com/Sean-Der}}
 
 \begin{resume}
 \vspace{1em}
 
-
-\section{\centerline{EXPERIENCE}} 
-{\bf Software Developer} \hfill 2013\\
+\section{\centerline{EXPERIENCE}}
+{\bf Software Developer} \hfill 2013 - *\\
     \href{http://www.onshored.com}{{\it onShore Development}} - Creator of Webcheckout, an scheduling and asset management application
-	\begin{itemize}  \itemsep -2pt 
-		\item Maintained and wrote new features on established software
-		\item Used Emacs with SLIME to create a full featured development enviroment
-		\item Converted HTML forms into responsive async interfaces with Dojo
+    \begin{itemize}  \itemsep -2pt
+        \item Maintained and wrote new features on established ten year old software
+        \item Converted Web App to be API driven, using Common Lisp and PostgreSQL on the backend
+        \item Ported to frontend to Angular, replacing projects in Dojo and jQuery
+        \item Replaced legacy markup/styling with Bootstrap
     \end{itemize}
 
-{\bf Software Developer} \hfill 2012 - 2013\\
+{\bf Software Developer} \hfill 2012 - *\\
     \href{http://www.saicorporate.com}{{\it System Associates}} - Developer of full stack software and hardware for major hotels
-	\begin{itemize}  \itemsep -2pt 
-    	\item Wrote custom PBX that serves multiple hotel chains
-		\item Developed web interface with Foundation Zurb to manage PBX
-		\item Created multiple HTML5 Phone Apps using PhoneGap
-		\item Managed MySQL DB that averages 62,00 entries a day
+    \begin{itemize}  \itemsep -2pt
+        \item Used Asterisk with custom Dialplan and Applications written in C to create a hosted PBX
+        \item Created a deployment system using git so updates and new installs can be done seamlessly
+        \item Developed a web interface with Foundation Zurb to manage PBX
+        \item Wrote multiple SPAs that shipped as Phone Apps using PhoneGap and jQuery Mobile
     \end{itemize}
 
 {\bf Programmer} \hfill 2012 \\
     \href{https://hackerschool.com}{{\it Hacker School}} - Three month immersive programming collective
-	\begin{itemize}  \itemsep -2pt 
-		\item Attended lectures given by leaders in Computer Science and Programming
-		\item Collaborated with others on major Open Source projects like FireFox
+    \begin{itemize}  \itemsep -2pt
+        \item Attended lectures given by leaders in Computer Science and Programming
+        \item Collaborated with others on major Open Source projects like FireFox
     \end{itemize}
 
-
 {\bf Software Developer} \hfill 2011 - 2012 \\
-    \href{http://www.vpcusa.com}{{\it Virtual Technologies Group}} - VoIP and IT services provider 
-	\begin{itemize}  \itemsep -2pt
-    		\item Wrote custom dialplan for school systems
-		\item Created a web portal that simplified a multi-day process to 5 minutes
-		\item Managed multiple Debian LAMP servers
+    \href{http://www.vpcusa.com}{{\it Virtual Technologies Group}} - VoIP and IT services provider
+    \begin{itemize}  \itemsep -2pt
+        \item Wrote custom dialplan for school systems
+        \item Created a web portal that simplified a multi-day process to 5 minutes
     \end{itemize}
 
 \section{\centerline{SKILLS}}
@@ -52,22 +50,23 @@
 \vspace{-1em}
 \begin{multicols}{2}
 \begin{itemize}  \itemsep -2pt
-	\item[] {\it Built Software With}
-	\item Lisp (Scheme and Common Lisp)
-	\item PHP
-	\item ECMAScript (Javascript)
-	\item HTML/CSS
-	\item C
-	\item SQL
-	\item \LaTeX
-	\item[] {\it Solved Problems With}
-	\item Shell Script (BASH, FISH, Csh)
-	\item C++
-	\item Java
-	\item MATLAB
-	\item x86 Assembly (Gas)
-	\item Perl
-	\item Python
+    \item[] {\it Built Software With}
+    \item Lisp (Scheme and Common Lisp)
+    \item PHP
+    \item ECMAScript (Javascript)
+    \item HTML/CSS
+    \item C
+    \item SQL
+    \item Go
+    \item \LaTeX
+    \item[] {\it Solved Problems With}
+    \item Shell Scripts
+    \item C++
+    \item Java
+    \item MATLAB
+    \item x86 Assembly (Gas)
+    \item Perl
+    \item Python
 \end{itemize}
 \end{multicols}
 
@@ -75,29 +74,31 @@
 \vspace{-1em}
 \begin{multicols}{2}
 \begin{itemize}  \itemsep -2pt
-	\item Apache/Nginx
-	\item Unix (Primarily FreeBSD and Debian)
-	\item MySQL/PostgreSQL/SQLite
-	\item Asterisk/FreePBX
-	\item jQuery/Dojo
-	\item CherryPy
-	\item PhoneGap
-	\item git/Subversion
-	\item Emacs/SLIME
-	\item Vim
+    \item Unix (Primarily FreeBSD and Debian)
+    \item MySQL/PostgreSQL/SQLite
+    \item Asterisk
+    \item jQuery/Dojo/Angular
+    \item PhoneGap
+    \item git/Subversion
+    \item Emacs/Vim
+    \item Bootstrap/Foundation
 \end{itemize}
 \end{multicols}
 
 \section{\centerline{PROJECTS}}
 \vspace{1em}
-\href{http://flyspray.org}{{\bf Flyspray}} - \it{A simple, but powerful PHP bugtracker.} \\ 
+\href{http://flyspray.org}{{\bf Flyspray}} - \it{A simple, but powerful PHP bugtracker.} \\
 \textup{Minor contributions, listed as contributer}\\
 \\
-\href{http://portix.bitbucket.org/dwb/}{{\bf dwb}} - \it{A minimal web browser written in C, with vim keybindings.} \\ 
+\href{http://angularjs.org}{{\bf AngularJS}} - \it{Superheroic JavaScript MVW Framework.} \\
+\textup{Added parameter serialization to ngResource, also submitted some PRs to angular-ui}\\
+\\
+\href{http://portix.bitbucket.org/dwb/}{{\bf dwb}} - \it{A minimal web browser written in C, with vim keybindings.} \\
 \textup{Fixed multiple bugs, listed as contributer}\\
-\vspace{-1em}
+\vspace{-1.5em}
+
 \section{\centerline{INTERESTS}}
-{\upshape Vinyl, Horror Films, Big Cities, Free Software and meat free food}
+{\upshape Vinyl, Horror Films, Big Cities and Open Source}
 
 \end{resume}
 \end{document}
