@@ -14,15 +14,24 @@
 
 \section{\centerline{EXPERIENCE}}
 
-\href{https://infiniscene.com/}{{\it Infiniscene}} - broadcast studio built on the web \hfill {\bf 2016 - *\space \space \space}
+\href{https://amazon.com/}{{\it Amazon}} - American electronic commerce and cloud computing company \hfill {\bf 2018 - *\space \space \space}
 \begin{itemize}  \itemsep -2pt
-    \item Worked on a backend written in C/C++ solving video performance issues
-    \item Wrote OpenGL/GLSL shaders, and CPU based video effects
+    \item Worked on Chromium on Android/Linux/Windows, the foundation for Amazon Silk
+    \item Wrote tooling so developers could use cloud desktops to develop Silk, instead of physical machines
+    \item Added support for Mediatek WebRTC H264 encoding on Android
+\end{itemize}
+
+\href{https://infiniscene.com/}{{\it Infiniscene}} - broadcast studio built on the web \hfill {\bf 2016 - 2018}
+\begin{itemize}  \itemsep -2pt
+    \item Wrote cloud compositing engine, ingestion of many sources and output to many destinations
+    \item Created ingestion engine, handles multiple popular transports RTP/UDT/SRT/RTMP
+    \item Deep WebRTC usage, worked with ICE/DTLS/Custom signaling in GStreamer
+    \item Created H264 analyzer to educate users, parsing byte-stream to warn about unsupported features
+    \item Updated developer tooling, moved developers over to shared Docker workflow
 \end{itemize}
 
 \href{https://www.etsy.com/}{{\it Etsy}} - e-commerce website focused on handmade {\bf \hfill 2014 - 2016}
 \begin{itemize}  \itemsep -2pt
-    \item Member of the Community Engineering Group, building tools to aid personnel connections
     \item Improved \href{https://github.com/elasticsearch/kibana}{{\it Kibana}}, adding aggregations and features for internal use
     \item Worked on internal IRC client that aimed to humanize users, adding proprietary extensions
     \item Upgraded Etsy to PHP 7, which involved porting multiple language extensions written in C
@@ -39,14 +48,7 @@
 \begin{itemize}  \itemsep -2pt
     \item Used Asterisk with custom Dialplan and Applications written in C to create a hosted PBX
     \item Created a deployment system using git so updates and new installs can be done seamlessly
-    \item Developed a web interface with Foundation Zurb to manage PBX
-    \item Wrote multiple SPAs that shipped as Phone Apps using PhoneGap and jQuery Mobile
-\end{itemize}
-
-\href{http://www.vpcusa.com}{{\it Virtual Technologies Group}} - VoIP and IT services provider {\bf \hfill 2011 - 2012 }
-\begin{itemize}  \itemsep -2pt
-    \item Wrote custom dialplan for school systems
-    \item Created a web portal that simplified a multi-day process to 5 minutes
+    \item Developed a web interface to manage PBX
 \end{itemize}
 
 \section{\centerline{SKILLS}}
@@ -54,44 +56,37 @@
 \vspace{-1em}
 \begin{multicols}{2}
 \begin{itemize}  \itemsep -2pt
-    \item[] {\it Built Software With}
+    \item C/C++
     \item Lisp (Scheme and Common Lisp)
     \item Javascript/HTML/CSS
-    \item C/C++
-    \item SQL
     \item Go
     \item PHP
-    \item[] {\it Solved Problems With}
     \item Shell Scripts
     \item \LaTeX
-    \item Assembler (x86 Gas)
     \item Python
-\end{itemize}
-\end{multicols}
-
-{\bf Software Used}
-\vspace{-1em}
-\begin{multicols}{2}
-\begin{itemize}  \itemsep -2pt
-    \item Unix (Primarily FreeBSD and Debian)
-    \item MySQL/PostgreSQL/SQLite
-    \item Asterisk
-    \item jQuery/Dojo/Angular
-    \item git/Subversion
-    \item Bootstrap/Foundation
+    \item Rust
 \end{itemize}
 \end{multicols}
 
 \section{\centerline{PROJECTS}}
 \vspace{1em}
-\href{https://github.com/Sean-Der/fail2web}{{\bf fail2web}} - \it{fail2ban GUI, written with Go and AngularJS.} \\
-\textup{Creator, contributed to \href{https://github.com/fail2ban/fail2ban}{{\bf fail2ban}} and \href{https://github.com/kisielk/og-rek}{{\bf ogorek}}}\\
+\href{https://github.com/pions/webrtc}{{\bf pions-WebRTC}} - \it{Golang implementation of WebRTC.} \\
+\textup{Creator, Implemented SRTP, SCTP, STUN and ICE. No 3rd party library usage.}\\
+\\
+\href{https://gstreamer.freedesktop.org}{{\bf GStreamer}} - \it{Free pipeline-based multimedia framework.} \\
+\textup{Added \href{https://github.com/GStreamer/gst-plugins-bad/commits/master/ext/aom}{{\bf AV1}} support. Fixed bugs, added flvmux feature}\\
 \\
 \href{https://php.net}{{\bf PHP}} - \it{Scripting language especially suited to web development.} \\
 \textup{Added \href{https://wiki.php.net/rfc/class_const_visibility}{{\bf class constant visibility}} to the language. Ported msgpack, oauth, yaml and others to PHP 7}\\
 \\
-\href{http://portix.bitbucket.org/dwb/}{{\bf dwb}} - \it{A minimal web browser written in C, with vim keybindings.} \\
-\textup{Fixed multiple bugs, listed as contributer}\\
+\href{https://janus.conf.meetecho.com}{{\bf Janus}} - \it{WebRTC gateway, mostly used for relaying RTP} \\
+\textup{Fixed bugs, added small streaming feature}\\
+\\
+\href{https://www.chromium.org/}{{\bf Chromium}} - \it{open-source Web browser project started by Google} \\
+\textup{Added support for Mediatek WebRTC H264 encoding on Android}\\
+\\
+\href{https://github.com/Sean-Der/fail2web}{{\bf fail2web}} - \it{fail2ban GUI, written with Go and AngularJS.} \\
+\textup{Creator, contributed to \href{https://github.com/fail2ban/fail2ban}{{\bf fail2ban}} and \href{https://github.com/kisielk/og-rek}{{\bf ogorek}}}\\
 
 \end{resume}
 \end{document}
