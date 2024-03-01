@@ -6,27 +6,32 @@ Minimal resume I made with LaTeX
 * HTML Example: http://siobud.com/resume
 * PDF Example: http://siobud.com/resume/resume.pdf
 
-#Libraries and tools used
+# Libraries and tools used
 * TeX Live: http://www.tug.org/texlive/
 * LaTeX Resume Class: http://www.rpi.edu/dept/arc/training/latex/resumes/
 
 
-#Setup
+# Setup
 
-##TeX Live
-To install TeX Live in Debian pull in (texlive-latex-recommended, texlive-latex-base)
+## TeX Live
 
-##Generate PDF
-run (pdflatex resume.tex)
+```
+nix-shell -p tetex
+```
 
-##Generate HTML
-To generate HTML I used https://github.com/coolwanglu/pdf2htmlEX
+## Generate PDF
 
-If you need help installing this feel free to email me. It was a pain
-to setup in Debian, but was worth it. I might make a little guide
-on how to install it if anyone cares
+```
+pdflatex resume.tex
+```
 
-#License
+## Generate HTML
+
+```
+docker run -ti --rm -v .:/pdf sergiomtzlosa/pdf2htmlex pdf2htmlEX --zoom 1.3 resume.pdf index.html
+```
+
+# License
 The MIT License (MIT)
 
 Copyright (c) 2014 Sean DuBois
