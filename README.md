@@ -16,7 +16,7 @@ Minimal resume I made with LaTeX
 ## TeX Live
 
 ```
-nix-shell -p tetex
+nix-shell -p texliveMedium
 ```
 
 ## Generate PDF
